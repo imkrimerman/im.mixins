@@ -1,0 +1,39 @@
+{
+  "name": "mixins",
+  "version": "0.0.1",
+  "description": "Handy mixins extension for ES6 and ES5 Classes",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "dev": "npm run build && webpack-dev-server",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkrimerman/mixins.git"
+  },
+  "keywords": [
+    "mixin",
+    "es6",
+    "es5",
+    "feature"
+  ],
+  "author": "Igor Krimerman <i.m.krimerman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imkrimerman/mixins/issues"
+  },
+  "homepage": "https://github.com/imkrimerman/mixins#readme",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "lodash": "^3.10.1",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "backbone-events-standalone": "^0.2.7",
+    "webpack": "^1.12.9"
+  }
+}
